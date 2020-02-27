@@ -1,6 +1,3 @@
-# Language (언어)
-[[영어]](https://github.com/2runo/JSL-js/blob/master/README.md)
-[[한국어]](https://github.com/2runo/JSL-js/blob/master/README.ko.md)
 # JSL Library for JavaScript
 JSL은 [WebSocket](https://ko.wikipedia.org/wiki/%EC%9B%B9%EC%86%8C%EC%BC%93) 암호화 통신 프로토콜입니다.
 SSL 작동 원리에 기반하여 RSA, AES 암호화 알고리즘을 통해 SSL 인증서 없이도 안전한 통신을 할 수 있도록 해줍니다.
