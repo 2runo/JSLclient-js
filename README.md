@@ -1,1 +1,1 @@
-# JSL-js
+# JSL Library for JavaScript
