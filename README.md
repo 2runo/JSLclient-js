@@ -15,7 +15,7 @@ SSL 작동 원리에 기반하여 RSA, AES 암호화 알고리즘을 통해 SSL 
 
 (이때, 연결하려는 WebSocket 서버는 JSL 프로토콜을 지원해야 합니다. [JSL 서버 구축하기](github.com))
 ```javascript
-jsl = new JSLhandshaker("ws://example.com");
+jsl = new JSLhandshaker("ws://example.com:1234");
 ```
 `onopen`을 통해 JSL 핸드셰이킹이 완료되었을 때 실행할 코드 내용을 지정할 수 있습니다:
 ```javascript
