@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <script src="../jsl.js"></script>
+    <script>
+        // 서버에 연결
+        jsl = new JSLhandshaker("ws://125.180.32.159:7404");
+        
+        jsl.onopen = function() {
+            // 연결되자마자 서버에 메시지 전송
+            jsl.send("Hello JSL!");
+        }
+        
+        jsl.onmsg = function(msg) {
+            // 서버로부터 메시지 받으면 출력
+            console.log(msg);
+        }
+    </script>
+</html>
